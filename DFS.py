@@ -24,4 +24,7 @@ def dfs(graph, start):
             for neighbor in graph[node]:
                 stack.append(neighbor)
 
+    print("DFS 알고리즘을 통해 방문한 모든 노드는 다음과 같다.")
+    print(visited)
+
 dfs(graph, "A")
